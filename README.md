@@ -5,6 +5,11 @@
 yarn install
 ```
 
+### Start fake API server for events data in a seperate CLI window
+```
+json-server --watch db.json
+```
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
